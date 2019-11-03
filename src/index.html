@@ -1,13 +1,112 @@
 <!DOCTYPE html>
-<html>
-<head>
-<meta charset="UTF-8">
-<title>A Day In June</title>
-</head>
+<html lang="en">
+  <head>
+    <title>A Day In June</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+
+    <style>
+      /* Make the image fully responsive */
+      .carousel-inner img {
+          width: 100%;
+          height: 100%;
+      }
+      </style>
+  </head>
 <body>
 
-<h1>This is a Heading</h1>
-<p>This is a paragraph.</p>
+<div class="container-fluid" style="max-width: 600px">
+
+  <img src="images/RideAMileForAnniesSmileLogo.jpg" alt="Ride a mile for annies smile" style="float:right;width:100px;height:100px;"></img>
+  <div>
+    <h1 class="text-center" style="padding-top: 10px">A Day In June</h1>
+    <div class="text-center">(Ride a mile for Annies smile)</div>
+  </div>
+  <hr style="margin-top: 10px">
+  <nav class="navbar navbar-expand-sm bg-warning navbar-light">
+  <!-- <nav class="navbar navbar-expand-sm bg-light"> -->
+  <ul class="navbar-nav">
+      <li class="nav-item">
+        <a class="nav-link" href="#">Lets Ride</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="https://en.wikipedia.org/wiki/Great_Southern_Rail_Trail">Rail Trail</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="https://photos.google.com/share/AF1QipPETqkzueTEXpukPDpRXe75Ylox1hFOJme2Mjxy3xj2yygce8hsaYwwGi79IRYQZw?key=SFNUS20zU2E4WDBHa0hKQjBkbzBYY0YzMXRCcEF3">Photos</a>
+      </li>
+      <!-- <li class="nav-item">
+        <a class="nav-link" href="#">Merchandise</a>
+      </li> -->
+      <li class="nav-item">
+        <a class="nav-link" href="https://gawler.org/donate/">Donate</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">About</a>
+      </li>
+  </ul>
+  </nav>
+  <hr>
+  <br>
+
+  <div id="demo" class="carousel slide" data-ride="carousel">
+    <ul class="carousel-indicators">
+      <li data-target="#demo" data-slide-to="0" class="active"></li>
+      <li data-target="#demo" data-slide-to="1"></li>
+      <li data-target="#demo" data-slide-to="2"></li>
+      <li data-target="#demo" data-slide-to="3"></li>
+      <li data-target="#demo" data-slide-to="4"></li>
+    </ul>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="./images/LeongathaToKoony1.JPG" alt="Leongatha to Koony" width="1100" height="500">
+        <div class="carousel-caption">
+          <h3>Leongatha to Koonwarra</h3>
+          <!-- <p>The ride begins</p> -->
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="./images/LeongathaToKoony2.JPG" alt="Leongatha to Koony" width="1100" height="500">
+        <div class="carousel-caption">
+          <h3>Leongatha to Koonwarra</h3>
+          <!-- <p>Riding through lush countryside</p> -->
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="./images/MeenyanTheFamily.JPG" alt="The Family" width="1100" height="500">
+        <div class="carousel-caption">
+          <h3>The family</h3>
+          <!-- <p>We made it to Meenyan</p> -->
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="./images/MeenyanToBuffalo.JPG" alt="Meenyan To Buffalo" width="1100" height="500">
+        <div class="carousel-caption">
+          <h3>Meenyan to Buffalo</h3>
+          <!-- <p>Flying along the rail trail</p> -->
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="./images/WelshpoolGroup.JPG" alt="Welshpool" width="1100" height="500">
+        <div class="carousel-caption">
+          <h3>Welshpool group photo</h3>
+          <!-- <p>Lots of smiles near the end of the ride</p> -->
+        </div>
+      </div>
+    </div>
+    <a class="carousel-control-prev" href="#demo" data-slide="prev">
+      <span class="carousel-control-prev-icon"></span>
+    </a>
+    <a class="carousel-control-next" href="#demo" data-slide="next">
+      <span class="carousel-control-next-icon"></span>
+    </a>
+  </div>
+  <div style="padding-top: 10px; padding-bottom: 10px">Fundraising for <a href="https://gawler.org/">The Gawler Cancer Foundation</a></div>
+</div>
 
 </body>
 </html>
